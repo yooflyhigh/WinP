@@ -35,12 +35,6 @@ namespace lab03
             User user = new User();
             return user.Id.Equals(textBox1.Text) && user.Pw.Equals(textBox2.Text);
         }
-        private void textClear()
-        {
-            textBox1.Clear();
-            textBox2.Clear();
-        }
-
         private void Button2_Click(object sender, EventArgs e)
         {
             Close();
