@@ -19,7 +19,8 @@ namespace wf01
         private void Button1_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
-            label1.Text = "버튼 스타일 : " + b.FlatStyle.ToString();
+            //label1.Text = "버튼 스타일 : " + b.FlatStyle.ToString();
+            label1.Text = b.ToString();
         }
         /*
         private void Button1_Click(object sender, EventArgs e)
